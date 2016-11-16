@@ -9,8 +9,6 @@ float xRotation = 0;
 float yRotation = 0;
 float zRotation = 0;
 Controller leap = new Controller();
-//Minim minim;
-//AudioPlayer PULSE42;
 
 void setup()
 {
@@ -19,9 +17,6 @@ void setup()
   background(canvasColor);
   vida = createFont("DINCondensed", 14);
   textFont(vida);
- // minim = new Minim(this);
- // PULSE42 = minim.loadFile("PULSE BONUS REMIX LOOP - 42.wav", 2048);
-//  PULSE42.loop();
 }
 
 
